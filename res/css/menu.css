@@ -1,0 +1,32 @@
+﻿body {
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+}
+.my-menu {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.my-menu ul {
+    list-style-type: none;
+}
+.my-menu li {
+    float: left;
+    display: inline-block;
+    padding: 14px 16px;
+}
+.my-menu li a {
+    padding: 14px 16px;
+    color: #ffffff;
+}
+.my-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.48);
+    text-decoration: none;
+    color: #ffffff;
+}
+.active{
+    background-color:rgba(27, 60, 255, 0.40);
+    color:#ffffff;
+}

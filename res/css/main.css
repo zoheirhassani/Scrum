@@ -1,0 +1,68 @@
+﻿
+
+html {
+    scroll-behavior: smooth;
+}
+img {
+    width:100%;
+}
+.not-started {
+    animation: 5s navn forwards;
+    text-align:center;
+}
+.in-progress {
+    animation: 5s navn1 forwards;
+    text-align: center;
+}
+.complated {
+    animation: 5s navn2 forwards;
+    text-align: center;
+}
+
+.not-started img {
+    width: 40%;
+}
+
+.in-progress img {
+    width: 65%;
+}
+
+.complated img {
+    width: 45%;
+}
+.my-footer{
+    height:150px;
+    background-color:#1b1b1b;
+    color:#ffffff;
+}
+
+
+
+
+@keyframes navn {
+    0% {
+        transform: translateX(80%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+@keyframes navn1 {
+    0% {
+        transform: translateX(40%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes navn2 {
+    0% {
+        transform: translateX(20%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
