@@ -36,7 +36,9 @@ img {
     color:#ffffff;
 }
 
-
+.header-img {
+    width:50%;
+}
 
 
 @keyframes navn {
